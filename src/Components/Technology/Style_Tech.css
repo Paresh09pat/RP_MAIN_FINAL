@@ -465,7 +465,7 @@
         border-right: 4px solid white;
     }
     
-    .TECHNOLOGY_P1,  .hash_one_P1{
+    .TECHNOLOGY_P1{
        display: none;
     }
     
@@ -473,6 +473,15 @@
         position: relative;
         z-index: 1;
         padding-top: 0px;
+    }
+     .hash_one_P1 {
+        position: absolute;
+        opacity: 0.2;
+        font-weight: 600;
+        font-size: 85px;
+        z-index: 1;
+        left: 81%;
+        top: 62%;
     }
     
     /* second section  */
@@ -489,8 +498,8 @@
     }
     
     .TECH_fpsub_sec1 {
-        width: 82%;
-        margin-left: 9%;
+        width: 90%;
+        margin-left: 10%;
         /* border: 1px solid red; */
         padding-top: 50px;
     }
@@ -519,7 +528,7 @@
     .TECH_fpsub_sec2 {
         /* border: 1px solid red; */
         width: 60%;
-        margin-left: 20%;
+        margin-left: 25%;
         padding-top: 20px;
         padding-bottom: 20px;
     }
