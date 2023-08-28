@@ -634,11 +634,13 @@
 
     #shopee .cbr_h3 {
         font-size: 22px;
+        margin-right: 3%;
     }
 
     .bg_text_tn_ECOm {
         font-size: 200%;
-        left: 5%;
+        left: 10%;
+        bottom:10%;
     }
 
     .capital {
@@ -647,6 +649,11 @@
 
     .hashone {
         font-size: 500%;
+    }
+    .hash_four {
+        position: absolute;
+        margin-left: 10%;
+        margin-top: 50%;
     }
 
     .img-fluid111 {
@@ -658,12 +665,11 @@
     }
 
     .content p {
-        margin: 0px -2%;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .content__border_right p {
-        padding-right: 5%;
+        padding-right: 3.5%;
         width: 80%;
     }
 
