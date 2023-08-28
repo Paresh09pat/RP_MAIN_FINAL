@@ -1267,7 +1267,7 @@ h3.imaino {
     }
 
     .olaa {
-        padding-top: 40%;
+        padding-top: 35%;
     }
 
     .bg_TWO_bus {
@@ -1285,7 +1285,7 @@ h3.imaino {
     .BSN_secpage_colorText {
         font-size: 25px;
         width: 65%;
-        padding-left: 5%;
+        padding-left: 8%;
         text-align: start;
     }
 
@@ -2638,6 +2638,9 @@ h3.imaino {
 
     .bg_TWO_bus {
         bottom: 14%;
+    }
+    .bg_No{
+        right: 11.2% !important;
     }
 
 }
