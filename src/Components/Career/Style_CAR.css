@@ -1562,8 +1562,8 @@
     }
 
     .car_rmb {
-        width: 25%;
-        margin-left: 72%;
+        width: 50%;
+        margin-left: 70%;
     }
 
     .dotted_pic {
@@ -1624,6 +1624,7 @@
     /* second  page*/
     .We_Are_RedPhantom_CP2 {
         padding-top: 8%;
+        margin-left: 9.5%
     }
 
     .We_Are_RedPhantom_CP3 {
