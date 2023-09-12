@@ -63,6 +63,9 @@
     margin-left: 82%;
     cursor: pointer;
 }
+/* .car_rmb:hover{
+   scale: 1.1;
+} */
 
 .hash_one1 {
     font-size: 150px;
@@ -154,7 +157,6 @@
     background-repeat: no-repeat;
     background-size: 80% 80%;
     background-position: center;
-    padding-bottom: 20px !important;
 }
 
 .We_Are_RedPhantom_CP2 {
@@ -188,7 +190,6 @@
 }
 
 .TC_C2 {
-    position: relative;
     width: 40%;
     margin-right: 4%;
     color: white;
@@ -207,8 +208,6 @@
     width: 40%;
     margin-left: 65%;
     cursor: pointer;
-    position: absolute;
-    bottom: 10px;
 }
 
 .Card_div_under_sub_1 {
@@ -974,19 +973,25 @@
         height: 100vh;
         /* background-image: url("../images1/herohome.jpg"); */
         background-image: none;
-        background-color: #666;
+        background-color: #000;
         padding-bottom: 250px;
-    }
-
-    .car_rmb {
-        width: 45% !important;
-        margin-left: 55% !important;
-        cursor: pointer;
     }
 
     .dotted_pic {
         display: none;
     }
+
+    .car_rmb {
+        width: 50%;
+        margin-left: 50%;
+    }
+    .carr_text_rmbtn {
+        width: 100%;
+        margin-left: 45%;
+        cursor: pointer;
+    }
+    
+    
 
     .Career_colorbor {
         width: 25%;
@@ -1088,11 +1093,6 @@
         font-size: 15px;
     }
 
-    .carr_text_rmbtn {
-        width: 50%;
-        margin-left: 48%;
-    }
-
     .TC_C3 {
         width: 85%;
         margin-left: 7.5%;
@@ -1136,13 +1136,13 @@
 
     .triangle-up {
         left: 70%;
-        top: 83%;
+        top: 81.8%;
     }
 
 
     .vis_arrow_right11 {
-        top: 2%;
-        left: 77%;
+        top: 2.7%;
+        left: 88%;
     }
 
     .vis_arrow_right11 span {
@@ -1150,6 +1150,7 @@
         height: 1rem;
         border-bottom: 3.2px solid white;
         border-right: 3.2px solid white;
+        margin: -10px;
     }
 
     /* third section */
@@ -1323,8 +1324,8 @@
     .vis_arrow_right111 {
         position: absolute;
         transform: rotate(270deg);
-        left: 80%;
-        top: -7px !important;
+        left: 87%;
+        top: 8.2px !important;
     }
 
     .vis_arrow_right111 span {
@@ -1333,9 +1334,11 @@
         height: 1rem;
         border-bottom: 3px solid white;
         border-right: 3px solid white;
+        margin: -10px;
     }
 
     /* fourth section */
+
     #Career_fourth_page_MainDiv {
         height: auto;
         width: 100%;
@@ -1453,6 +1456,7 @@
         margin: 0px 2% 0px 2%;
     }
 
+
     .carrer_youtube_wrapper {
         width: 10%;
         position: absolute;
@@ -1465,6 +1469,8 @@
         /* animation: youtube 2s ease-out infinite; */
         /* Apply the animation to .carrer_youtube_wrapper */
     }
+
+
 
     .carrer_youtube_wrapper::after,
     .carrer_youtube_wrapper::before {
@@ -1496,6 +1502,7 @@
             transform: scale(1.5);
         }
     }
+
 
     /* animation */
 
@@ -1624,7 +1631,7 @@
     /* second  page*/
     .We_Are_RedPhantom_CP2 {
         padding-top: 8%;
-        margin-left: 9.5%
+        margin-left: 9.5%;
     }
 
     .We_Are_RedPhantom_CP3 {
@@ -1637,7 +1644,7 @@
     #CP_second_sec_main_page {
         padding-bottom: 50px;
         padding-top: 30px;
-        height: 1120px;
+        height: auto;
         background-color: black;
         /* border: 1px solid red; */
     }
@@ -1670,7 +1677,7 @@
         font-size: 15px;
         position: absolute;
         top: 490px;
-        height: 450px;
+        height: 100%;
     }
 
     .TC_C3 {
@@ -2162,19 +2169,6 @@
         padding-bottom: 200px;
     }
 
-    .car_rmb {
-        width: 20%;
-        margin-left: 77%;
-    }
-
-    .carr_text_rmbtn {
-        width: 50%;
-        margin-left: 50%;
-        cursor: pointer;
-        position: absolute;
-        bottom: 10px;
-    }
-
     .Career_colorbor {
         width: 10%;
         font-size: 25px;
@@ -2218,10 +2212,6 @@
     }
 
     /* second  page*/
-
-    .Card_div_under_sub_2 {
-        height: 48.5%;
-    }
 
     #CP_second_sec_main_page {
         width: 100%;
@@ -2315,7 +2305,7 @@
     }
 
     .CP3_Card_Sub_cards {
-        /* border: 1px solid yellow; */
+        border: 1px solid yellow;
         height: 240px;
         margin-bottom: 15px;
     }
@@ -2384,6 +2374,7 @@
         padding-top: 170px;
         font-size: 12px;
         line-height: 15px;
+
     }
 
     .triangle-left,
@@ -2567,11 +2558,6 @@
 /* MQ 4 */
 
 @media screen and (min-width:1025px) and (max-width:1440px) {
-
-    .car_rmb {
-        width: 15%;
-        margin-left: 83%;
-    }
 
     /* second sec */
     .We_Are_RedPhantom_CP2 {
