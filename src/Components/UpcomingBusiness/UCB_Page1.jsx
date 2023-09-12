@@ -22,11 +22,11 @@ function UCB_Page1() {
                     </p>
                 </div>
 
-                <p className='UPB_readmore' data-aos="fade-right" data-aos-duration="1100">
-                    <NavLink to="/comingsoon">
+                {/* <p className='UPB_readmore' data-aos="fade-right" data-aos-duration="1100"> */}
+                    <NavLink to="/comingsoon" className="upc_rm_btn">
                         <RMBTN />
                     </NavLink>
-                </p>
+                {/* </p> */}
 
                 <div className="arrow_right_UCB">
                     <span></span>

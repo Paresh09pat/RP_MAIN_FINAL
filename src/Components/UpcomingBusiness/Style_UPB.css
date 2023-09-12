@@ -62,6 +62,10 @@
     /* border: 1px solid red; */
 }
 
+.upc_rm_btn {
+    margin-right: 8%;
+}
+
 .arrow_right_UCB {
     position: absolute;
     bottom: 10%;
@@ -197,7 +201,7 @@ div.Up_image_main {
     margin-top: 16px;
 }
 
-.view_All_btn{
+.view_All_btn {
     position: absolute !important;
     color: white !important;
     width: 180px;
@@ -212,7 +216,7 @@ div.Up_image_main {
     font-weight: 500;
 }
 
-.view_All_btn:hover{
+.view_All_btn:hover {
     background-color: #ff006f;
     color: white !important;
     border: none;
@@ -394,11 +398,18 @@ div.Up_image_main {
         height: auto;
         padding-top: 20px;
     }
+
+    .view_All_btn {
+        padding: 0px;
+        width: 30%;
+        margin-left: 35%;
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width: 500px) and (max-width: 768px) {
 
-    .view_All_btn{
+    .view_All_btn {
         position: absolute !important;
         color: white !important;
         width: 100px;

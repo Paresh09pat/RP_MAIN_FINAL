@@ -28,7 +28,6 @@ function Ecom_Page1() {
 
           <div className='rm_ecompage1'>
             <NavLink to="/comingsoon">
-              {/* <img className='rm_shopee ' src={my_rmEcom} /> */}
               <div className='rm_shopee '>
                 <RMBTN />
               </div>
