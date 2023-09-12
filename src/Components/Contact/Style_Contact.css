@@ -21,7 +21,10 @@
     height: 100vh;
     box-sizing: border-box;
     color: white;
-    padding-top: 200px;
+    /* padding-top: 200px; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
 }
 
 .contact__head {
@@ -150,26 +153,26 @@
 
 /* second section */
 
-.business_form {
+.business_form{
     /* border: 1px solid red; */
     display: flex;
 }
 
-.business_form_sub1 {
+.business_form_sub1{
     /* border: 1px solid rgb(14, 19, 155); */
     width: 50%;
     display: flex;
     flex-direction: column;
 }
 
-.bsn_inp_1 {
+.bsn_inp_1{
     color: white;
     padding-left: 10px;
     border: 1px solid white;
     border-radius: 5px;
 }
 
-.bsn_textarea_new {
+.bsn_textarea_new{
     width: 94%;
     margin-left: 5%;
     border: 1px solid white;
@@ -179,30 +182,27 @@
     color: white;
 }
 
-.bsn_dropdown {
-    /* background-color: transparent; */
-    color: white;
-    border-radius: 5px;
-    border: 1px solid white;
-    height: 45px;
-    background-color: black;
-    padding: 0px 10px 0px 10px;
+.bsn_dropdown{
+/* background-color: transparent; */
+color: white;
+border-radius: 5px;
+border: 1px solid white;
+height: 45px;
+background-color: black;
+padding:  0px 10px 0px 10px;
 }
 
-.business_form_sub2 {
+.business_form_sub2{
     /* border: 1px solid yellow; */
     width: 50%;
 }
 
-#btn_GE,
-#btn_Business,
-#btn_Investor,
-#btn_Media {
+#btn_GE,#btn_Business,#btn_Investor,#btn_Media{
     background-color: transparent;
     border: none;
 }
 
-.activeButton {
+.activeButton{
     color: red;
 }
 
@@ -215,7 +215,7 @@
     height: 170px !important;
 }
 
-.form-control::placeholder {
+.form-control::placeholder{
     color: rgb(92, 89, 89) !important;
 }
 
@@ -501,9 +501,7 @@ a:hover {
     margin-left: 50px;
 }
 
-.my_link:hover,
-.my_link:active,
-.my_link:focus {
+.my_link:hover, .my_link:active , .my_link:focus {
     cursor: pointer !important;
     text-decoration: 2px solid rgb(250, 16, 172) underline !important;
     text-underline-offset: 6px;
@@ -630,13 +628,19 @@ a:hover {
         /* border: 1px solid white; */
     }
 
-    #con_rm_btn {
-        width: 45% !important;
-        margin-left: 50% !important;
+    .con_rm_btn {
+        width: 30%;
+        margin-left: 55%;
+
     }
 
     #contact__main {
         height: auto;
+        padding-top: 30%;
+    }
+    #con_rm_btn {
+        width: 92% !important;
+        margin-left: 45% !important;
     }
 
     .contact__head {
@@ -648,6 +652,7 @@ a:hover {
     .contact__heads {
         width: 80%;
         margin-left: 10%;
+        padding-right: 15px;
     }
 
     .contact__news {
@@ -663,6 +668,7 @@ a:hover {
     .Helpline__main {
         width: 80%;
         margin-left: 10%;
+        padding-right: 15px;
     }
 
     .tec h1 {
@@ -727,10 +733,30 @@ a:hover {
     }
 
     .my_link {
-        font-size: 17px;
+        font-size: 16px;
         margin-left: 0px;
         width: 50%;
-        padding-bottom: 20px;
+        padding-bottom: 15px;
+    }
+    .form_content {
+        margin-top: 2.5rem;
+    }
+    .business_form {
+        display: block;
+    }
+    .business_form_sub1 {
+        width: 100%;
+    }
+    .business_form_sub2 {
+        width: 100%;
+    }
+    .form_content textarea {
+        margin-top: 10%;
+
+    }
+    .bsn_textarea_new {
+        width: 100%;
+        margin-left: 0%;
     }
 
     .tec2 {
@@ -741,7 +767,7 @@ a:hover {
 
     .section_3_content_p {
         margin-top: 3rem;
-        font-size: 20px;
+        font-size: 30px !important;
     }
 
     #section_3_title {
@@ -823,11 +849,14 @@ a:hover {
     /* Contact Page First */
     .contact__first_page {
         height: 100vh;
-        /* border: 1px solid red; */
     }
 
     #contact__main {
-        height: auto;
+        
+    }
+    #con_rm_btn {
+        width: 50% !important;
+        margin-left: 70% !important;
     }
 
     .contact__head {
@@ -876,9 +905,10 @@ a:hover {
         display: none;
     }
 
-    #con_rm_btn {
-        width: 30% !important;
-        margin-left: 72% !important;
+    .con_rm_btn {
+        width: 22%;
+        margin-left: 65%;
+
     }
 
     /* down Arrow */
@@ -1019,13 +1049,6 @@ a:hover {
 @media screen and (min-width:770px) and (max-width:1024px) {
 
     /* Contact Page First */
-
-    
-    #con_rm_btn {
-        width: 20% !important;
-        margin-left: 78% !important;
-    }
-
     .contact__first_page {
         height: 100vh;
         width: 100%;
