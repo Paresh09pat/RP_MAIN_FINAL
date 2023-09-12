@@ -45,8 +45,8 @@
 }
 
 .ab_rmbtn {
-    margin-left: 83%;
-    width: 11%;
+    margin-left: 81%;
+    width: 51%;
     cursor: pointer;
 }
 
@@ -506,7 +506,7 @@
     }
 
     .ab_rmbtn{
-        width: 45%;
+        width: 80%;
         margin-left: 55%;
     }
 
@@ -516,11 +516,6 @@
     .scroll-effect-container {
         height: auto;
         background-color: black !important;
-    }
-
-    .ab_rmbtn{
-        width: 20%;
-        margin-left: 73%;
     }
 
     #about_sec2,
@@ -642,6 +637,9 @@
         display: none;
 
     }
+    .ab_rmbtn {
+        margin-left: 70%;
+    }
 }
 
 
@@ -649,6 +647,7 @@
     .scroll-effect-container {
         height: 200vh;
         background-color: black !important;
+
     }
 
     #about_sec2,
@@ -656,11 +655,6 @@
     #manage_senior_sec {
         height: auto;
         background-color: black;
-    }
-
-    .ab_rmbtn{
-        width: 20%;
-        margin-left: 77%;
     }
 
     .milestonepara {
@@ -1213,9 +1207,10 @@ p {
     #ABP_first_page_main_div {
         height: 100vh;
         background-image: none;
-        background-color: #161616;
+        background-color: #000;
         padding-top: 45%;
         padding-bottom: 35%;
+        padding-right: 2%;
     }
 
     .Ab_us {
