@@ -305,6 +305,7 @@
     right: 8%;
     font-size: 80px;
     color: #303030d6;
+    opacity: 0.6;
     font-weight: 600;
 }
 
@@ -1215,11 +1216,6 @@ h3.imaino {
 
     /* first section */
 
-    .readMore_btn {
-        margin-left: 30% ;
-        margin-top: 10px;
-    }
-
     .readmore_button {
         box-sizing: border-box;
         width: 7%;
@@ -1311,7 +1307,7 @@ h3.imaino {
         text-align: center;
         font-size: 16px;
         width: 85%;
-        margin-left: 5%;
+        margin-left: 8%;
         text-align: left;
     }
 
@@ -1343,7 +1339,7 @@ h3.imaino {
         /* border: 1px solid red; */
         height: auto;
         background-image: none;
-        background-color: rgb(70, 64, 64);
+        background-color: #000;
         background-size: 100% 100%;
         box-shadow: none
     }
@@ -1595,7 +1591,7 @@ h3.imaino {
     .subanything {
         color: white;
         font-family: sans-serif;
-        margin-left: 20px;
+        margin-left: 5px;
         width: 100%;
         /* border: 1px solid red; */
         padding-top: 15px;
@@ -1949,7 +1945,7 @@ h3.imaino {
 
     .latest {
         font-size: 30px;
-        margin-left: 7.5%;
+        margin-left: 10%;
         display: flex;
         margin-top: 2px;
     }
@@ -2028,7 +2024,7 @@ h3.imaino {
     .vis_arrow_right4 {
         position: absolute;
         transform: rotate(270deg);
-        left: 35%;
+        left: 40%;
         top: 47PX;
     }
 
@@ -2640,7 +2636,7 @@ h3.imaino {
 @media screen and (min-width:480px) and (max-width: 768px) {
     .prveArrow__page1 {
         bottom: 8% !important;
-        right: 28% !important;
+        right: 29% !important;
 
     }
 
@@ -2650,14 +2646,14 @@ h3.imaino {
     }
 
     .bg_No__Page1__home {
-        right: 23%;
+        right: 22%;
         bottom: 8.5%;
     }
 
     .bg_TWO_bus {
         bottom: 14%;
     }
-    .bg_No{
+    .bg_No {
         right: 11.2% !important;
     }
 
@@ -2761,4 +2757,18 @@ h3.imaino {
         display: none;
     }
 
+}
+
+
+/* Last Momment css */
+@media screen and (min-width:319px) and (max-width: 377px) {    
+
+.readMore_btn {
+    margin-left: 20%;
+}
+}
+@media screen and (min-width:377px) and (max-width: 426px) {    
+.readMore_btn{
+    margin-left: 27%;
+}
 }
