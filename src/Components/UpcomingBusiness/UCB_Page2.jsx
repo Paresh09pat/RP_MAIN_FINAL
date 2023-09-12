@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./Style_UPB.css";
 import { NavLink } from "react-router-dom"
 import Carousel from "react-multi-carousel";
@@ -163,6 +163,8 @@ const responsive = {
   mobile: {
     breakpoint: { max: 464, min: 0 },
     items: 1,
+    autoPlay: true,
+  autoPlaySpeed: 2000,
   },
 };
 
@@ -174,6 +176,23 @@ const UCB_Page2 = () => {
     setActiveImage(mainSliderImages[index]);
     setSmallSliderActiveIndex(index);
   };
+  useEffect(() => {
+    const isMobile = window.innerWidth <= 464; // Define your mobile breakpoint
+    let interval;
+
+    if (isMobile) {
+      interval = setInterval(() => {
+        const nextIndex =
+          smallSliderActiveIndex === smallSliderImages.length - 1
+            ? 0
+            : smallSliderActiveIndex + 1;
+        handleSmallSliderImageClick(nextIndex);
+      }, 3000); // Adjust the interval time as needed (in milliseconds)
+    }
+    return () => {
+      clearInterval(interval);
+    };
+  }, [smallSliderActiveIndex]);
 
   return (
     <div className="Up_slider-container">
@@ -217,6 +236,7 @@ const UCB_Page2 = () => {
           centerMode={true}
           focusOnSelect={true}
           containerClass="show_carousel"
+          
         >
           {smallSliderImages.map((image, index) => (
             <div key={image.id}>
