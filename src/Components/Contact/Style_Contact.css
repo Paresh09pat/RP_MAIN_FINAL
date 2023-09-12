@@ -846,8 +846,8 @@ a:hover {
     }
 
     .contact__desc {
-        width: 50%;
-        margin-left: 50%;
+        width: 55%;
+        margin-left: 44%;
         /* border: 1px solid red; */
     }
 
@@ -883,8 +883,8 @@ a:hover {
 
     /* down Arrow */
     .arrow_right_con1 {
-        bottom: 8%;
-        left: 80%;
+        bottom: 12%;
+        left: 85%;
     }
 
     .arrow_right_con1 span {
