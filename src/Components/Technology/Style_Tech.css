@@ -255,7 +255,7 @@
     /* first section */
     #Tech_first_sec_main_div {
         height: 100vh;
-        background-image:none;
+        background-image:url(../../Components/images1/Technology_MV.png);
         background-color: black;
         padding-top: 100px;
       /* border: none; */
