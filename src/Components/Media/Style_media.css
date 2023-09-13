@@ -630,7 +630,7 @@ button11:hover {
 
     .media__first_page {
         height: 100vh;
-        background: none;
+        background-image: url(../../Components/images1/NewsndMedia__MV.jpg) ;
         background-color: black;
         /* border: 1px solid red; */
     }
