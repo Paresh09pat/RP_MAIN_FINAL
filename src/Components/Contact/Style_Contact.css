@@ -624,7 +624,7 @@ a:hover {
     /* Contact Page First */
     .contact__first_page {
         height: 100vh;
-        background-image: none;
+        background-image: url(../../Components/images1/ContactUs_MV.png);
         /* border: 1px solid white; */
     }
 
