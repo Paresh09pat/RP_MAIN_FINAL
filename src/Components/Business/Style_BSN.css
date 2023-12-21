@@ -953,9 +953,14 @@
 .subnewscard {
     width: 23%;
     border: 2px solid;
-    height: 350px;
+    height: 100%;
     /* margin-left: 2%; */
     border-image: linear-gradient(#7700FF, #e703e7) 30;
+    display: flex;
+    flex-direction: column;
+}
+.lastCardRes{
+    height: 73.2%;
 }
 
 .GSMTOME {
@@ -975,9 +980,8 @@
 .pic2 {
     /* border: 1px solid red; */
     width: 100%;
-    margin-top: 5px;
-    height: auto;
-    bottom: 0px;
+    height: 100%;
+        bottom: 0px;
 }
 
 .pic3 {
@@ -987,12 +991,11 @@
 
 .pic4 {
     width: 100%;
-    height: 55%;
-    margin-top: 10px;
+    height: -webkit-fill-available;
 }
 
 .subcolorcardtext2 {
-    height: 85px;
+    
     border-left: 3px solid white;
     font-size: 11px;
     line-height: 14px;
@@ -1006,7 +1009,7 @@
     color: white;
     font-family: sans-serif;
     margin-left: 20px;
-    padding-top: 20px;
+    
     font-size: 25px;
     font-weight: 1000;
 }

@@ -72,7 +72,9 @@ function Business_page4() {
                             as private corporations, non-profit agencies,
                             and community organizations.
                         </div>
+                        <div className="lastCardRes">
                         <img className='pic4' src={my_img4} alt='' />
+                        </div>
                     </div>
                 </div>
 
