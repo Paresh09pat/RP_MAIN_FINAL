@@ -15,7 +15,7 @@ function Main_first() {
                     <div id='stars3'></div>
 
                     <div id="titleAA">
-                        RedPhantom Group Of Industries Pra
+                        RedPhantom Group Of Industries
                     </div>
 
                 </div>
